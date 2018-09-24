@@ -1,0 +1,21 @@
+{
+  "name": "webdriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "wdio-dot-reporter": "^0.0.10",
+    "wdio-mocha-framework": "^0.6.3",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "init": "./node_modules/.bin/wdio config",
+    "runner": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
